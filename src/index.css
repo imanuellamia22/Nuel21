@@ -1,0 +1,19 @@
+body {
+    background: linear-gradient(to bottom, #f0fff4, #fdf2f8, #f5f3ff);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2d3748;
+    overflow-x: hidden;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #f9a8d4; border-radius: 10px; }
